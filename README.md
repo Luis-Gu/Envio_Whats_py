@@ -75,6 +75,8 @@ whatsapp-bot/
 │   └── loading_dec.py         # Decorador para exibir mensagens de carregamento
 ├── venv/
 ├── main.py                    # Script principal que executa o bot
+├── .gitignore                 # Ignora arquivos e pastas que não devem ser versionados
+├── .pylintrc                  # Configurações do Pylint para definir regras de código Python
 ├── requirements.txt           # Arquivo para instalar dependências do Python
 ├── SELENIUM_LOGS              # Arquivo para armazenar logs do Selenium
 └── README.md                  # Documentação do projeto
