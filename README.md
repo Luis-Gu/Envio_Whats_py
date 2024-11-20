@@ -94,5 +94,5 @@ whatsapp-bot/
 
 ## Contato
 
-Criado por [Luis Gustavo](https://www.instagram.com/guziin_costa/)
-[GitHub](https://github.com/Luis-Gu) | [E-mail](mailto:luis.gucn@gmail.com)
+Criado por **Luis Gustavo**
+| [GitHub](https://github.com/Luis-Gu) | [E-mail](mailto:luis.gucn@gmail.com)
