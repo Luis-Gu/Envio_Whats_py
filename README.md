@@ -21,3 +21,49 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados/con
 3. Dependências do Python (instale usando o `requirements.txt`):
    ```bash
    pip install -r requirements.txt
+   
+4. **Conta Google Configurada**
+    - Certifique-se de que a conta tem permissões de acesso à planilha.
+ 
+---
+
+## Instalação e Configuração
+
+1. **Clone este repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/whatsapp-bot.git
+   cd whatsapp-bot
+2. **Configure os IDs e faixas da planilha:**
+   - No arquivo `main.py`, substitua:
+     ```python
+     self.id_sheets = 'ID da sua planilha'
+     self.range_sheets = 'NomeDaAba!A:Z'
+3. **Crie um ambiente virtual python*:*
+   - No terminal, execute os seguintes comandos:
+     ```bash
+     python.exe -m venv venv
+     
+---
+
+## Como Usar
+
+1. **Inicie o ambiente virtual python**
+   ```bash
+   .\venv\Scripts\activate
+2. **Inicie o bot:** Execute o script principal para iniciar o processo de envio de mensagens:
+   ```bash
+   .\venv\Scripts\python.exe .\main.py
+3. **Acesse o WhatsApp Web:**
+   - O navegador abrirá o WhatsApp Web.
+   - Escaneie o código QR para logar na sua conta.
+4. **Finalização:**
+   - Após o envio, bot fará logout automaticamente.
+
+---
+
+## Estrutura do Projeto:
+
+
+   
+   
+   
