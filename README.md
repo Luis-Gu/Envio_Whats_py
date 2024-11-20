@@ -62,6 +62,27 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados/con
 ---
 
 ## Estrutura do Projeto:
+```plaintext
+whatsapp-bot/
+├── assets/
+│   ├── chromedriver.exe       # WebDriver do Selenium
+│   ├── credentials.json       # Arquivo de credenciais da API do Google (autenticação)
+│   └── token.json             # Arquivo de token para autenticação da API do Google
+├── modules/
+│   ├── __init__.py            # Indica que a pasta é um módulo Python
+│   ├── setup_selenium.py      # Configuração do WebDriver Selenium
+│   ├── sheets_python.py       # Integração com Google Sheets API
+│   └── loading_dec.py         # Decorador para exibir mensagens de carregamento
+├── venv/
+├── .gitignore                 # 
+├── main.py                    # Script principal que executa o bot
+├── requirements.txt           # Arquivo para instalar dependências do Python
+├── SELENIUM_LOGS              # Arquivo para armazenar logs do Selenium
+└── README.md                  # Documentação do projeto
+```
+
+---
+
 
 
    
