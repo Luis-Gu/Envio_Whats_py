@@ -74,7 +74,6 @@ whatsapp-bot/
 │   ├── sheets_python.py       # Integração com Google Sheets API
 │   └── loading_dec.py         # Decorador para exibir mensagens de carregamento
 ├── venv/
-├── .gitignore                 # 
 ├── main.py                    # Script principal que executa o bot
 ├── requirements.txt           # Arquivo para instalar dependências do Python
 ├── SELENIUM_LOGS              # Arquivo para armazenar logs do Selenium
@@ -83,8 +82,17 @@ whatsapp-bot/
 
 ---
 
+## Observações:
+- **Segurança:** Evite enviar mensagens para destinatários que não tenham autorizado a comunicação. Certifique-se de que todos os números são válidos.
+- **Taxas de envio:** O WhatsApp pode impor limites ao número de mensagens enviadas por sessão. Use com moderação.
+- **Melhoria contínua:** Este projeto foi desenvolvido como base; você pode expandi-lo para incluir recursos como:
+   - Monitoramento de respostas.
+   - Integração com outras APIs.
+   - Personalização de mensagens mais avançada.
 
+---
 
-   
-   
-   
+## Contato
+
+Criado por [Luis Gustavo](https://www.instagram.com/guziin_costa/)
+[GitHub](https://github.com/Luis-Gu) | [E-mail](mailto:luis.gucn@gmail.com)
